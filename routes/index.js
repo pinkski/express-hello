@@ -126,6 +126,8 @@ module.exports = function(app) {
             req.session.user = user;
             req.flash('success', '登陆成功!');
             res.redirect('/');//登陆成功后跳转到主页
+
+            
         });
     });
 
